@@ -19,6 +19,8 @@ streamlit run main.py
 
 ## Deployment
 
+Make changes to the code on main branch to trigger Github Actions.
+
 ### App Password
 
 Specify the following environment variable if you wish to password protect the entire application.
