@@ -17,7 +17,7 @@ if not check_password():
 
 st.title("Streamlit App")
 form = st.form(key="form")
-form.subheader("Prompt")
+form.subheader("Prompt for PUB")
 
 user_prompt = form.text_area("Enter your prompt here", height=200)
 
